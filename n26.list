@@ -1,0 +1,16 @@
+# N26 Proxy Rules List
+# Updated: 2026-03-05
+# Description: N26 Bank Proxy Rules for Surge
+
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,api.n26.com
+DOMAIN-SUFFIX,api-prod.n26.com
+DOMAIN-SUFFIX,staging-api.n26.com
+DOMAIN-SUFFIX,transactions.n26.com
+DOMAIN-SUFFIX,notifications.n26.com
+DOMAIN-SUFFIX,cdn.n26.com
+DOMAIN-SUFFIX,images.n26.com
+DOMAIN-SUFFIX,push.n26.com
+DOMAIN,n26-app.n26.com
+DOMAIN,n26-auth.n26.com
+DOMAIN,mobile-api.n26.com
