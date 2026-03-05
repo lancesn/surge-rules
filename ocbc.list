@@ -1,0 +1,199 @@
+# OCBC Bank Stream Rules List
+# Updated: 2025-03-05
+# Auto-Update: 24 hours
+# Description: OCBC Bank Traffic Routing Rules for Banking Platform
+
+# Main Domain
+DOMAIN-SUFFIX,ocbc.com
+DOMAIN,ocbc.com
+
+# Banking API Endpoints
+DOMAIN-SUFFIX,api.ocbc.com
+DOMAIN,api.ocbc.com
+DOMAIN,api-v1.ocbc.com
+DOMAIN,api-v2.ocbc.com
+DOMAIN,api-v3.ocbc.com
+DOMAIN,api-prod.ocbc.com
+DOMAIN,api-staging.ocbc.com
+DOMAIN,api-test.ocbc.com
+
+# Mobile Banking Applications
+DOMAIN-SUFFIX,mobile.ocbc.com
+DOMAIN-SUFFIX,app.ocbc.com
+DOMAIN,m.ocbc.com
+DOMAIN,mobilebanking.ocbc.com
+DOMAIN,ios.ocbc.com
+DOMAIN,android.ocbc.com
+DOMAIN,ocbc-mobile.ocbc.com
+
+# Online Banking Portal
+DOMAIN-SUFFIX,online.ocbc.com
+DOMAIN-SUFFIX,web.ocbc.com
+DOMAIN,banking.ocbc.com
+DOMAIN,ebanking.ocbc.com
+DOMAIN,onlinebanking.ocbc.com
+DOMAIN,portal.ocbc.com
+
+# Business Banking
+DOMAIN,business.ocbc.com
+DOMAIN,corporatebanking.ocbc.com
+DOMAIN,treasurybanking.ocbc.com
+DOMAIN,fcm.ocbc.com
+
+# Wealth Management
+DOMAIN,wealth.ocbc.com
+DOMAIN,investment.ocbc.com
+DOMAIN,ocbcwm.ocbc.com
+DOMAIN,portfolio.ocbc.com
+
+# CDN & Static Assets
+DOMAIN-SUFFIX,cdn.ocbc.com
+DOMAIN-SUFFIX,static.ocbc.com
+DOMAIN-SUFFIX,images.ocbc.com
+DOMAIN-SUFFIX,assets.ocbc.com
+DOMAIN-SUFFIX,resources.ocbc.com
+DOMAIN-SUFFIX,content.ocbc.com
+
+# Real-time Services
+DOMAIN,stream.ocbc.com
+DOMAIN,push.ocbc.com
+DOMAIN,notification.ocbc.com
+DOMAIN,alert.ocbc.com
+DOMAIN,ws.ocbc.com
+DOMAIN,websocket.ocbc.com
+
+# Transaction Processing
+DOMAIN,transaction.ocbc.com
+DOMAIN,payment.ocbc.com
+DOMAIN,transfer.ocbc.com
+DOMAIN,fund-transfer.ocbc.com
+DOMAIN,wire.ocbc.com
+DOMAIN,clearing.ocbc.com
+
+# Account Management
+DOMAIN-SUFFIX,auth.ocbc.com
+DOMAIN,login.ocbc.com
+DOMAIN,account.ocbc.com
+DOMAIN,user.ocbc.com
+DOMAIN,profile.ocbc.com
+DOMAIN,myaccount.ocbc.com
+
+# Authentication & Security
+DOMAIN,security.ocbc.com
+DOMAIN,verify.ocbc.com
+DOMAIN,otp.ocbc.com
+DOMAIN,2fa.ocbc.com
+DOMAIN,kyc.ocbc.com
+DOMAIN,aml.ocbc.com
+
+# Deposit & Savings
+DOMAIN,deposit.ocbc.com
+DOMAIN,savings.ocbc.com
+DOMAIN,fixeddeposit.ocbc.com
+DOMAIN,savinghub.ocbc.com
+
+# Loans & Credit
+DOMAIN,loan.ocbc.com
+DOMAIN,credit.ocbc.com
+DOMAIN,mortgage.ocbc.com
+DOMAIN,autofinance.ocbc.com
+DOMAIN,personalloans.ocbc.com
+
+# Cards
+DOMAIN,card.ocbc.com
+DOMAIN,cards.ocbc.com
+DOMAIN,creditcard.ocbc.com
+DOMAIN,debitcard.ocbc.com
+DOMAIN,cardservices.ocbc.com
+
+# Forex & Currency
+DOMAIN,forex.ocbc.com
+DOMAIN,currency.ocbc.com
+DOMAIN,exchange.ocbc.com
+DOMAIN,rates.ocbc.com
+
+# Remittance & International Transfer
+DOMAIN,remittance.ocbc.com
+DOMAIN,international.ocbc.com
+DOMAIN,swift.ocbc.com
+DOMAIN,remit.ocbc.com
+
+# Insurance
+DOMAIN,insurance.ocbc.com
+DOMAIN,takaful.ocbc.com
+
+# Analytics & Reporting
+DOMAIN,analytics.ocbc.com
+DOMAIN,report.ocbc.com
+DOMAIN,reporting.ocbc.com
+DOMAIN,dashboard.ocbc.com
+DOMAIN,statement.ocbc.com
+
+# Support & Help
+DOMAIN,support.ocbc.com
+DOMAIN,help.ocbc.com
+DOMAIN,customer-service.ocbc.com
+DOMAIN,faq.ocbc.com
+DOMAIN,chat.ocbc.com
+
+# Developer & API Documentation
+DOMAIN,developers.ocbc.com
+DOMAIN,docs.ocbc.com
+DOMAIN,api-docs.ocbc.com
+DOMAIN,developer-portal.ocbc.com
+
+# Regional Endpoints
+DOMAIN,sg.ocbc.com
+DOMAIN,my.ocbc.com
+DOMAIN,id.ocbc.com
+DOMAIN,bn.ocbc.com
+DOMAIN,hk.ocbc.com
+DOMAIN,asia.ocbc.com
+
+# Regional API Servers
+DOMAIN,api-sg.ocbc.com
+DOMAIN,api-my.ocbc.com
+DOMAIN,api-asia.ocbc.com
+
+# Infrastructure & Load Balancing
+DOMAIN,lb.ocbc.com
+DOMAIN,router.ocbc.com
+DOMAIN,gateway.ocbc.com
+DOMAIN,edge.ocbc.com
+DOMAIN,loadbalancer.ocbc.com
+
+# Failover & Disaster Recovery
+DOMAIN,backup.ocbc.com
+DOMAIN,dr.ocbc.com
+DOMAIN,failover.ocbc.com
+DOMAIN,redundancy.ocbc.com
+
+# Monitoring & Health Check
+DOMAIN,status.ocbc.com
+DOMAIN,health.ocbc.com
+DOMAIN,monitoring.ocbc.com
+DOMAIN,metrics.ocbc.com
+DOMAIN,logs.ocbc.com
+DOMAIN,apm.ocbc.com
+
+# Email Services
+DOMAIN,mail.ocbc.com
+DOMAIN,smtp.ocbc.com
+DOMAIN,email.ocbc.com
+
+# Rate Limiting & Throttling
+DOMAIN,rate-limit.ocbc.com
+DOMAIN,throttle.ocbc.com
+DOMAIN,quota.ocbc.com
+
+# Partners & Integration
+DOMAIN,partner.ocbc.com
+DOMAIN,partners.ocbc.com
+DOMAIN,integration.ocbc.com
+DOMAIN,webhook.ocbc.com
+
+# Compliance & Audit
+DOMAIN,compliance.ocbc.com
+DOMAIN,audit.ocbc.com
+DOMAIN,legal.ocbc.com
+DOMAIN,terms.ocbc.com
