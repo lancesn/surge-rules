@@ -1,0 +1,112 @@
+# Trading 212 Stream Rules List
+# Updated: 2025-03-05
+# Auto-Update: 24 hours
+# Description: Trading 212 Traffic Routing Rules for Trading Platform
+
+# Main Domain
+DOMAIN-SUFFIX,trading212.com
+DOMAIN,trading212.com
+
+# Trading API Endpoints
+DOMAIN-SUFFIX,api.trading212.com
+DOMAIN,api.trading212.com
+DOMAIN,api-v1.trading212.com
+DOMAIN,api-v2.trading212.com
+DOMAIN,api-prod.trading212.com
+DOMAIN,api-staging.trading212.com
+DOMAIN,api-test.trading212.com
+
+# Mobile Applications
+DOMAIN-SUFFIX,mobile.trading212.com
+DOMAIN-SUFFIX,app.trading212.com
+DOMAIN,m.trading212.com
+DOMAIN,ios.trading212.com
+DOMAIN,android.trading212.com
+
+# Web Platform
+DOMAIN-SUFFIX,web.trading212.com
+DOMAIN-SUFFIX,platform.trading212.com
+DOMAIN,trading.trading212.com
+DOMAIN,invest.trading212.com
+
+# CDN & Static Assets
+DOMAIN-SUFFIX,cdn.trading212.com
+DOMAIN-SUFFIX,static.trading212.com
+DOMAIN-SUFFIX,images.trading212.com
+DOMAIN-SUFFIX,assets.trading212.com
+DOMAIN-SUFFIX,resources.trading212.com
+
+# Real-time Data & Streaming
+DOMAIN,stream.trading212.com
+DOMAIN,quote.trading212.com
+DOMAIN,quote-stream.trading212.com
+DOMAIN,market-data.trading212.com
+DOMAIN,data.trading212.com
+DOMAIN,ws.trading212.com
+DOMAIN,websocket.trading212.com
+
+# Order Execution
+DOMAIN,order.trading212.com
+DOMAIN,execute.trading212.com
+DOMAIN,settlement.trading212.com
+DOMAIN,clearing.trading212.com
+
+# Account & Authentication
+DOMAIN-SUFFIX,auth.trading212.com
+DOMAIN,login.trading212.com
+DOMAIN,account.trading212.com
+DOMAIN,user.trading212.com
+DOMAIN,kyc.trading212.com
+DOMAIN,verification.trading212.com
+
+# Payment & Settlement
+DOMAIN,payment.trading212.com
+DOMAIN,deposit.trading212.com
+DOMAIN,withdrawal.trading212.com
+DOMAIN,billing.trading212.com
+DOMAIN,settlement.trading212.com
+
+# Notifications & Push
+DOMAIN,push.trading212.com
+DOMAIN,notification.trading212.com
+DOMAIN,notify.trading212.com
+DOMAIN,alert.trading212.com
+
+# Analytics & Monitoring
+DOMAIN,analytics.trading212.com
+DOMAIN,logs.trading212.com
+DOMAIN,monitoring.trading212.com
+DOMAIN,status.trading212.com
+
+# Support & Documentation
+DOMAIN,support.trading212.com
+DOMAIN,help.trading212.com
+DOMAIN,docs.trading212.com
+DOMAIN,api-docs.trading212.com
+
+# Regional Endpoints
+DOMAIN,us.trading212.com
+DOMAIN,eu.trading212.com
+DOMAIN,uk.trading212.com
+DOMAIN,asia.trading212.com
+
+# Backup & DR Regions
+DOMAIN,backup.trading212.com
+DOMAIN,dr.trading212.com
+DOMAIN,failover.trading212.com
+
+# Load Balancing & Routing
+DOMAIN,lb.trading212.com
+DOMAIN,router.trading212.com
+DOMAIN,gateway.trading212.com
+DOMAIN,edge.trading212.com
+
+# Rate Limiting & Throttling
+DOMAIN,rate-limit.trading212.com
+DOMAIN,throttle.trading212.com
+DOMAIN,quota.trading212.com
+
+# Performance Monitoring
+DOMAIN,perf.trading212.com
+DOMAIN,metrics.trading212.com
+DOMAIN,apm.trading212.com
