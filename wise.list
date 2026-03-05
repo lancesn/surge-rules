@@ -1,0 +1,20 @@
+# Wise Proxy Rules List
+# Updated: 2026-03-05
+# Auto-Update: 24 hours
+# Description: Wise Bank Proxy Rules for Surge
+
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,api.wise.com
+DOMAIN-SUFFIX,api-prod.wise.com
+DOMAIN-SUFFIX,api-staging.wise.com
+DOMAIN-SUFFIX,app.wise.com
+DOMAIN-SUFFIX,mobile.wise.com
+DOMAIN-SUFFIX,m.wise.com
+DOMAIN-SUFFIX,cdn.wise.com
+DOMAIN-SUFFIX,images.wise.com
+DOMAIN-SUFFIX,static.wise.com
+DOMAIN-SUFFIX,push.wise.com
+DOMAIN-SUFFIX,notifications.wise.com
+DOMAIN,wise-api.wise.com
+DOMAIN,wise-auth.wise.com
+DOMAIN,wise-mobile.wise.com
