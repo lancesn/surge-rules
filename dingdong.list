@@ -1,0 +1,236 @@
+# DingDong Fresh Delivery Stream Rules List
+# Updated: 2025-03-05
+# Auto-Update: 24 hours
+# Description: DingDong (叮咚买菜) Traffic Routing Rules for Fresh Delivery Platform
+
+# Main Domain
+DOMAIN-SUFFIX,dingdongapp.com
+DOMAIN,dingdongapp.com
+DOMAIN-SUFFIX,dingdongxs.com
+DOMAIN,dingdongxs.com
+
+# API Endpoints
+DOMAIN-SUFFIX,api.dingdongapp.com
+DOMAIN,api.dingdongapp.com
+DOMAIN,api-v1.dingdongapp.com
+DOMAIN,api-v2.dingdongapp.com
+DOMAIN,api-v3.dingdongapp.com
+DOMAIN,api-prod.dingdongapp.com
+DOMAIN,api-staging.dingdongapp.com
+DOMAIN,api-test.dingdongapp.com
+
+# Mobile Applications
+DOMAIN-SUFFIX,mobile.dingdongapp.com
+DOMAIN-SUFFIX,app.dingdongapp.com
+DOMAIN,m.dingdongapp.com
+DOMAIN,ios.dingdongapp.com
+DOMAIN,android.dingdongapp.com
+DOMAIN,iphone.dingdongapp.com
+
+# Web Platform
+DOMAIN-SUFFIX,web.dingdongapp.com
+DOMAIN,www.dingdongapp.com
+DOMAIN,shop.dingdongapp.com
+DOMAIN,online.dingdongapp.com
+
+# Product & Catalog Service
+DOMAIN,product.dingdongapp.com
+DOMAIN,catalog.dingdongapp.com
+DOMAIN,goods.dingdongapp.com
+DOMAIN,item.dingdongapp.com
+DOMAIN,search.dingdongapp.com
+
+# Inventory & Stock Management
+DOMAIN,inventory.dingdongapp.com
+DOMAIN,stock.dingdongapp.com
+DOMAIN,warehouse.dingdongapp.com
+DOMAIN,stock-management.dingdongapp.com
+
+# Order Processing
+DOMAIN,order.dingdongapp.com
+DOMAIN,orders.dingdongapp.com
+DOMAIN,cart.dingdongapp.com
+DOMAIN,checkout.dingdongapp.com
+DOMAIN,settlement.dingdongapp.com
+
+# Delivery & Logistics
+DOMAIN,delivery.dingdongapp.com
+DOMAIN,logistics.dingdongapp.com
+DOMAIN,rider.dingdongapp.com
+DOMAIN,dispatch.dingdongapp.com
+DOMAIN,route.dingdongapp.com
+DOMAIN,tracking.dingdongapp.com
+DOMAIN,location.dingdongapp.com
+
+# Payment Gateway
+DOMAIN,payment.dingdongapp.com
+DOMAIN,pay.dingdongapp.com
+DOMAIN,wallet.dingdongapp.com
+DOMAIN,settlement.dingdongapp.com
+DOMAIN,billing.dingdongapp.com
+DOMAIN,invoice.dingdongapp.com
+
+# User Account & Profile
+DOMAIN,auth.dingdongapp.com
+DOMAIN,login.dingdongapp.com
+DOMAIN,account.dingdongapp.com
+DOMAIN,user.dingdongapp.com
+DOMAIN,profile.dingdongapp.com
+DOMAIN,member.dingdongapp.com
+
+# Authentication & Security
+DOMAIN,security.dingdongapp.com
+DOMAIN,verify.dingdongapp.com
+DOMAIN,otp.dingdongapp.com
+DOMAIN,kyc.dingdongapp.com
+DOMAIN,phone-verify.dingdongapp.com
+
+# Address & Location Services
+DOMAIN,address.dingdongapp.com
+DOMAIN,geo.dingdongapp.com
+DOMAIN,location.dingdongapp.com
+DOMAIN,map.dingdongapp.com
+DOMAIN,region.dingdongapp.com
+DOMAIN,city.dingdongapp.com
+
+# Promotion & Coupon
+DOMAIN,promotion.dingdongapp.com
+DOMAIN,coupon.dingdongapp.com
+DOMAIN,discount.dingdongapp.com
+DOMAIN,voucher.dingdongapp.com
+DOMAIN,offer.dingdongapp.com
+DOMAIN,marketing.dingdongapp.com
+
+# Membership & Loyalty
+DOMAIN,membership.dingdongapp.com
+DOMAIN,vip.dingdongapp.com
+DOMAIN,points.dingdongapp.com
+DOMAIN,rewards.dingdongapp.com
+DOMAIN,loyalty.dingdongapp.com
+
+# Real-time Services & Messaging
+DOMAIN,stream.dingdongapp.com
+DOMAIN,push.dingdongapp.com
+DOMAIN,notification.dingdongapp.com
+DOMAIN,alert.dingdongapp.com
+DOMAIN,ws.dingdongapp.com
+DOMAIN,websocket.dingdongapp.com
+DOMAIN,message.dingdongapp.com
+
+# Recommendation Engine
+DOMAIN,recommend.dingdongapp.com
+DOMAIN,recommend-engine.dingdongapp.com
+DOMAIN,personalization.dingdongapp.com
+DOMAIN,suggestion.dingdongapp.com
+
+# CDN & Static Assets
+DOMAIN-SUFFIX,cdn.dingdongapp.com
+DOMAIN-SUFFIX,static.dingdongapp.com
+DOMAIN-SUFFIX,images.dingdongapp.com
+DOMAIN-SUFFIX,assets.dingdongapp.com
+DOMAIN-SUFFIX,resources.dingdongapp.com
+DOMAIN-SUFFIX,media.dingdongapp.com
+
+# Community & Social Features
+DOMAIN,community.dingdongapp.com
+DOMAIN,social.dingdongapp.com
+DOMAIN,review.dingdongapp.com
+DOMAIN,rating.dingdongapp.com
+DOMAIN,comment.dingdongapp.com
+DOMAIN,feed.dingdongapp.com
+
+# Customer Service & Support
+DOMAIN,support.dingdongapp.com
+DOMAIN,help.dingdongapp.com
+DOMAIN,service.dingdongapp.com
+DOMAIN,customer-service.dingdongapp.com
+DOMAIN,chat.dingdongapp.com
+DOMAIN,feedback.dingdongapp.com
+
+# Analytics & Data
+DOMAIN,analytics.dingdongapp.com
+DOMAIN,data.dingdongapp.com
+DOMAIN,report.dingdongapp.com
+DOMAIN,dashboard.dingdongapp.com
+DOMAIN,metrics.dingdongapp.com
+DOMAIN,logs.dingdongapp.com
+
+# Business Intelligence
+DOMAIN,bi.dingdongapp.com
+DOMAIN,insights.dingdongapp.com
+DOMAIN,statistics.dingdongapp.com
+
+# Regional Endpoints
+DOMAIN,sh.dingdongapp.com
+DOMAIN,bj.dingdongapp.com
+DOMAIN,gz.dingdongapp.com
+DOMAIN,sz.dingdongapp.com
+DOMAIN,cd.dingdongapp.com
+DOMAIN,cq.dingdongapp.com
+DOMAIN,wh.dingdongapp.com
+DOMAIN,nj.dingdongapp.com
+DOMAIN,hz.dingdongapp.com
+
+# Regional API Servers
+DOMAIN,api-sh.dingdongapp.com
+DOMAIN,api-bj.dingdongapp.com
+DOMAIN,api-east.dingdongapp.com
+DOMAIN,api-north.dingdongapp.com
+DOMAIN,api-south.dingdongapp.com
+
+# Store Management (For Warehouse Staff)
+DOMAIN,store.dingdongapp.com
+DOMAIN,merchant.dingdongapp.com
+DOMAIN,business.dingdongapp.com
+DOMAIN,admin.dingdongapp.com
+DOMAIN,backend.dingdongapp.com
+
+# Rider/Driver Services
+DOMAIN,driver.dingdongapp.com
+DOMAIN,courier.dingdongapp.com
+DOMAIN,deliveryman.dingdongapp.com
+
+# Infrastructure & Load Balancing
+DOMAIN,lb.dingdongapp.com
+DOMAIN,router.dingdongapp.com
+DOMAIN,gateway.dingdongapp.com
+DOMAIN,edge.dingdongapp.com
+DOMAIN,loadbalancer.dingdongapp.com
+
+# Failover & Disaster Recovery
+DOMAIN,backup.dingdongapp.com
+DOMAIN,dr.dingdongapp.com
+DOMAIN,failover.dingdongapp.com
+DOMAIN,redundancy.dingdongapp.com
+
+# Monitoring & Health Check
+DOMAIN,status.dingdongapp.com
+DOMAIN,health.dingdongapp.com
+DOMAIN,monitoring.dingdongapp.com
+DOMAIN,apm.dingdongapp.com
+
+# Rate Limiting & Traffic Control
+DOMAIN,rate-limit.dingdongapp.com
+DOMAIN,throttle.dingdongapp.com
+DOMAIN,quota.dingdongapp.com
+
+# Developer & API Documentation
+DOMAIN,developers.dingdongapp.com
+DOMAIN,docs.dingdongapp.com
+DOMAIN,api-docs.dingdongapp.com
+
+# Quality & Food Safety
+DOMAIN,quality.dingdongapp.com
+DOMAIN,food-safety.dingdongapp.com
+DOMAIN,compliance.dingdongapp.com
+
+# Third-party Integration
+DOMAIN,partner.dingdongapp.com
+DOMAIN,partners.dingdongapp.com
+DOMAIN,integration.dingdongapp.com
+DOMAIN,webhook.dingdongapp.com
+
+# Payment Partners
+DOMAIN,alipay.dingdongapp.com
+DOMAIN,wechatpay.dingdongapp.com
+DOMAIN,unionpay.dingdongapp.com
