@@ -1,0 +1,15 @@
+# Muse AI / Meta AI / Llama Surge Rule Set
+# Updated: 2026-11-20
+# Usage: RULE-SET,<raw URL>,PROXY
+# The policy is assigned in the Surge profile, not inside this list.
+
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN,ai.meta.com
+DOMAIN,auth.meta.com
+DOMAIN,accountscenter.meta.com
+DOMAIN,meta.graph.meta.com
+DOMAIN,ar.graph.meta.com
